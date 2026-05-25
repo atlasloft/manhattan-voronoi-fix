@@ -73,7 +73,8 @@ def main():
     ax2.set_title('Merge Process')
 
     plt.tight_layout()
-    plt.savefig('python_ai/voronoi_demo.png', dpi=150)
+    # plt.savefig('python_ai/voronoi_demo.png', dpi=150)
+    plt.savefig('voronoi_demo.png', dpi=150)
     plt.close()
     print("Diagram saved to python_ai/voronoi_demo.png")
     print("Sites:", len(vector_points))
